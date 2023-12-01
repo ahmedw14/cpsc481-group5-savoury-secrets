@@ -1,0 +1,13 @@
+@import url("../../theme/theme.module.css");
+
+.favourite_screen{
+  background-color: var(--background);
+  height: 100vh;
+}
+.favourites_content{
+  height: 85%;
+  width: 90%;
+  margin: auto;
+  overflow-y: scroll;
+  margin-top: 1rem;
+}

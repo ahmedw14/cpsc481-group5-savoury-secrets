@@ -1,24 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Account from './pages/Account/Account';
+import CookingScreen from './pages/CookingScreen/CookingScreen';
+import FavouriteRecipesScreen from './pages/FavouriteRecipesScreen/FavouriteRecipesScreen';
+import FavouriteScreen from './pages/FavouriteScreen/FavouriteScreen';
+import HomeScreen from './pages/HomeScreen/HomeScreen';
+import Language from './pages/LanguageScreen/LanguageScreen';
+import RecipeScreen from './pages/RecipeScreen/RecipeScreen';
+import SignInScreen from './pages/SignInScreen/SignInScreen';
+import WelcomeScreen from './pages/WelcomeScreen/WelcomeScreen';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<WelcomeScreen />} />
+          <Route path="/language" element={<Language />} />
+          <Route path="/signin" element={<SignInScreen />} />
+          <Route path="/home" element={<HomeScreen />} />
+          <Route path="/favourites" element={<FavouriteScreen />} />
+          <Route path="/favouritesList/:listName" element={<FavouriteRecipesScreen />} />
+          <Route path="/recipe/:recipeName" element={<RecipeScreen />} />
+          <Route path="/cooking/:recipeName/:stepNumber" element={<CookingScreen />} />
+          <Route path="/account" element={<Account />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

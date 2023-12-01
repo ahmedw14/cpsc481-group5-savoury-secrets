@@ -1,0 +1,24 @@
+:root {
+  --background: #232946;
+  --headline: #fffffe;
+  --paragraph: #b8c1ec;
+  --cardBackground: #fffffe;
+  --cardHeading: #232946;
+  --cardParagraph: #232946;
+  --cardTagBackground: #232946;
+  --cardTagText: #fffffe;
+  --cardHighlight: #d4939d;
+  --button: #b8c1ec;
+  --buttonText: #232946;
+  --stroke: #121629;
+  --main: #b8c1ec;
+  --highlight: #eebbc3;
+  --secondary: #fffffe;
+  --tertiary: #eebbc3;
+  --inputBackground: #ffffff;
+  --inputBorder: #121629;
+  --inputText: #121629;
+  --fontFamily: "Roboto-Black", Helvetica;
+  --navBar: #1e40e7;
+  --toggle: #0288d1;
+}

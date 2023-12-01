@@ -1,0 +1,84 @@
+@import url("../../theme/theme.module.css");
+
+.sign_in_up {
+  background-color: var(--background);
+  height: 100vh;
+}
+.top-layer {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+.input-container{
+  height: 85%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
+  background-color: var(--cardBackground);
+  overflow-y: scroll;
+  bottom: 0;
+  position: absolute;
+  justify-content: center;
+}
+.taco{
+  height: 100px;
+  width: 100px;
+  top: 10%;
+  left: 0%;
+  position: absolute;
+}
+.burger{
+  height: 100px;
+  width: 100px;
+  top: 10%;
+  right: 0%;
+  position: absolute;
+}
+.sign-in-form{
+  width: 80%;
+  height: 50%;
+  margin: auto;
+}
+.form-fields > h2{
+  color: var(--cardHeading);
+  font-family: var(--fontFamily);
+  margin: 0;
+  margin-top: 1rem;
+}
+.form-fields > p{
+  color: var(--cardParagraph);
+  font-family: var(--fontFamily);
+  margin: 0;
+  margin-top: 0.5rem;
+  text-decoration: underline;
+}
+.form-fields{
+  margin-bottom: 2rem;
+  height: 80%;
+}
+.bottom-component{
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 30%;
+  position: absolute;
+  bottom: 0;
+}
+.language-component{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 1rem;
+}
+.language-icon{
+  width: 80px;
+  height: 80px;
+}
+.bottom-component > button{
+  height: 20%;
+}

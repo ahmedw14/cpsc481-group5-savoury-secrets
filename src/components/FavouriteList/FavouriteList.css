@@ -1,0 +1,42 @@
+@import url("../../theme/theme.module.css");
+
+.favourite_list_card{
+  background-color: var(--cardBackground);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  cursor: pointer;
+  height: 100px;
+  font-family: var(--fontFamily);
+}
+.action_items{
+  border-left: 2px solid var(--background);
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 40%;
+}
+.edit{
+  display: flex;
+  align-items: center;
+  color: var(--navBar);
+  position: absolute;
+  top: 0%;
+  width: 80%;
+}
+.delete{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0%;
+  width: 80%;
+}
+.modal_input{
+  font-family: var(--fontFamily);
+}

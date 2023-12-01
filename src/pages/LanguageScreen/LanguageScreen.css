@@ -1,0 +1,25 @@
+@import url("../../theme/theme.module.css");
+
+.language_screen {
+  background-color: var(--background);
+  height: 100vh;
+}
+.top_leanguage_bar{
+  width: 90%;
+  top: 0;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1rem;
+}
+
+.language_container{
+  height: calc(85% - 2rem);
+  border-radius: 20px;
+  width: 90%;
+  background-color: var(--cardBackground);
+  overflow-y: scroll;
+  margin: auto;
+}

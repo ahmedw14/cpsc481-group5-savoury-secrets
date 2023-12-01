@@ -1,0 +1,44 @@
+@import url("../../theme/theme.module.css");
+
+.modal_top_bar{
+  display: flex;
+  justify-content: end;
+  margin: 1rem;
+  width: 90%;
+}
+.modal_content{
+  width: 80%;
+  margin: auto;
+  position: relative;
+  height: 90%;
+}
+.modal_title{
+  text-align: center;
+  color: black;
+  margin: 1rem;
+}
+.modal_input{
+  margin: auto;
+  width: 90%;
+}
+.modal_input > h2{
+  color: #EF5DA8;
+  font-family: "Roboto-Black", Helvetica;
+  margin: 0;
+  margin-top: 2rem;
+}
+.modal_content > h1{
+  text-align: center;
+  width: 100%;
+}
+.modal_bottom_bar{
+  width: 90%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+}

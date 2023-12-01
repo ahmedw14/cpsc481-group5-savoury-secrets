@@ -1,0 +1,10 @@
+.bottom_buttons{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.apply_filter_button{
+  height: 100%;
+  width: 45%;
+}

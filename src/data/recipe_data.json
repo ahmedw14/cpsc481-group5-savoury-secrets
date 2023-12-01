@@ -1,0 +1,69 @@
+[
+    {
+      "name": "Spaghetti Bolognese",
+      "time": 20,
+      "mealType": "Lunch",
+      "allergies": ["Dairy", "Gluten"],
+      "ingredients": [
+        {"amount": 500, "label": "g ground beef"},
+        {"amount": 1, "label": "Onion"},
+        {"amount": 2, "label": "cloves garlic"},
+        {"amount": 1, "label": "can crushed tomatoes"},
+        {"amount": 2, "label": "tablespoons tomato paste"},
+        {"amount": 1, "label": "teaspoon dried oregano"},
+        {"amount": 1, "label": "teaspoon salt"},
+        {"amount": 1, "label": "teaspoon pepper"},
+        {"amount": 300, "label": "g spaghetti"}
+      ],
+      "steps": [
+        "In a large pan, brown the ground beef over medium heat.",
+        "Add chopped onions and garlic, sauté until onions are translucent.",
+        "Stir in crushed tomatoes, tomato paste, oregano, salt, and pepper.",
+        "Simmer for 20 minutes, stirring occasionally.",
+        "Meanwhile, cook spaghetti according to package instructions.",
+        "Serve the Bolognese sauce over cooked spaghetti."
+      ],
+      "stepImg": [
+        "https://www.allrecipes.com/thmb/6mrxFLSjT5WYWAdSkji2ydL6sc8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Browning-ground-beef-in-stainless-steel-pan-d9491fae742946868045d93c10f6fe56.jpg",
+        "https://www.thespruceeats.com/thmb/BCnpSqcDx7gQ3ZUO8fk2s9Ft_cc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/stir-fry-beef-with-onions-recipe-694111-step-12-0767d3ae4b5b483b86034c87b75b05a5.jpg",
+        "https://theforkedspoon.com/wp-content/uploads/2020/01/Homemade-Spaghetti-Sauce-Recipe-8-500x500.jpg",
+        "https://goughpubs.files.wordpress.com/2022/02/312dcfac-578c-4bd9-a2c3-853ad81f3bf6_1_201_a.jpeg",
+        "https://media2.giphy.com/media/sdQ3nOAboMc0M/giphy.gif",
+        "https://www.iheartnaptime.net/wp-content/uploads/2023/03/Spaghetti-Meat-Sauce-I-Heart-Naptime.jpg"
+      ],
+      "numberOfReviews": 50,
+      "avgReviews": 2.7,
+      "image": "https://t4.ftcdn.net/jpg/02/40/99/19/360_F_240991913_c22j6WvLgpqiUvjaLiLc5rh14WO8jShB.jpg"
+    },
+    {
+      "name": "Chicken Caesar Salad",
+      "time": 30,
+      "mealType": "Snack",
+      "allergies": ["Vegan", "Vegetarian", "Dairy"],
+      "ingredients": [
+        {"amount": 2, "label": "boneless, skinless chicken breasts"},
+        {"amount": 1, "label": "head romaine lettuce"},
+        {"amount": 1, "label": "cup croutons"},
+        {"amount": 0.5, "label": "cup grated Parmesan cheese"},
+        {"amount": 50, "label": "g Caesar dressing"}
+      ],
+      "steps": [
+        "Season chicken breasts with salt and pepper.",
+        "Grill chicken until fully cooked, then slice into strips.",
+        "In a large bowl, combine chopped romaine lettuce, croutons, and grated Parmesan.",
+        "Add grilled chicken strips to the salad.",
+        "Drizzle Caesar dressing over the salad and toss gently to combine."
+      ],
+      "stepImg": [
+        "https://cdn.sunbasket.com/37b2941c-3821-4f15-8524-3d8a7f35ceeb.jpg",
+        "https://www.allrecipes.com/thmb/6MLfDGOe_9NtBmBwHINKnwnOroc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/158140-Spaghetti-sauce-with-ground-beef-mfs-step-2-175-566f8da2d9184cb380e1723d14347b53.jpg",
+        "https://www.allrecipes.com/thmb/6MLfDGOe_9NtBmBwHINKnwnOroc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/158140-Spaghetti-sauce-with-ground-beef-mfs-step-3-175-566f8da2d9184cb380e1723d14347b53.jpg",
+        "https://www.allrecipes.com/thmb/6MLfDGOe_9NtBmBwHINKnwnOroc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/158140-Spaghetti-sauce-with-ground-beef-mfs-step-4-175-566f8da2d9184cb380e1723d14347b53.jpg",
+        "https://www.allrecipes.com/thmb/6MLfDGOe_9NtBmBwHINKnwnOroc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/158140-Spaghetti-sauce-with-ground-beef-mfs-step-5-175-566f8da2d9184cb380e1723d14347b53.jpg",
+        "https://www.allrecipes.com/thmb/6MLfDGOe_9NtBmBwHINKnwnOroc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/158140-Spaghetti-sauce-with-ground-beef-mfs-step-6-175-566f8da2d9184cb380e1723d14347b53.jpg"
+      ],
+      "numberOfReviews": 150,
+      "avgReviews": 4.7,
+      "image": "https://www.seriouseats.com/thmb/oT9x26TZKXTK6U_-j_hfoyB1tys=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__04__20131009-caesar-salad-food-lab-11-Edit-ee91cc5229cc41b9b611ffd162b9715c.jpg"
+    }
+  ]

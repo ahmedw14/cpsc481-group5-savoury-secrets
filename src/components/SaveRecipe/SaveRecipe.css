@@ -1,0 +1,6 @@
+@import url("../../theme/theme.module.css");
+
+.modal_input_list{
+  height: 70%;
+  overflow-y: auto;
+}

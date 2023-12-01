@@ -1,0 +1,133 @@
+@import url("../../theme/theme.module.css");
+
+.welcome_screen {
+  background-color: var(--background);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.overlap-group {
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  z-index: 1;
+}
+  
+.welcome_screen .text-wrapper {
+  color: var(--headline);
+  font-family: var(--fontFamily);
+  font-size: 48px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+  
+.welcome_screen .text-wrapper-2 {
+  color: var(--headline);
+  font-family: var(--fontFamily);
+  font-size: 24px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  white-space: nowrap;
+  animation: appearAndDissapear 2s infinite;
+}
+@keyframes appearAndDissapear {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;;
+  }
+}
+.images{
+  height: 90%;
+  top: 10px;
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 380px;
+  display: flex;
+}
+
+.welcome_screen .burger {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  animation: upToDown-burger 4s infinite;
+  height: 150px;
+  width: 150px;
+}
+@keyframes upToDown-burger {
+  0% {
+    transform: translateY(0%) rotate(28.28deg);
+  }
+  50% {
+    transform: translateY(150px) rotate(-1.00deg);
+  }
+  100% {
+    transform: translateY(0%) rotate(28.28deg);
+  }
+}
+.sushi {
+  position: absolute;
+  transform: rotate(-28.28deg);
+  top: 10%;
+  left: 5%;
+  animation: upToDown-sushi 4s infinite;
+  height: 150px;
+  width: 100px;
+}
+@keyframes upToDown-sushi {
+  0% {
+    transform: translateY(0%) rotate(-28.28deg);
+  }
+  50% {
+    transform: translateY(150px) rotate(-1.00deg);
+  }
+  100% {
+    transform: translateY(0%) rotate(-28.28deg);
+  }
+}
+.welcome_screen .taco {
+  animation: upToDown-taco 4s infinite;
+  height: 150px;
+  width: 150px;
+  top: 50%;
+  left: 25%;
+  position: absolute;
+}
+@keyframes upToDown-taco {
+  0% {
+    transform: translateY(0%) rotate(28.28deg);
+  }
+  50% {
+    transform: translateY(150px) rotate(-10.00deg);
+  }
+  100% {
+    transform: translateY(0%) rotate(28.28deg);
+  }
+}
+.language {
+  position: absolute;
+  top: 0rem;
+  right: 1rem;
+  height: 100px;
+  width: 100px;
+}
