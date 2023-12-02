@@ -48,32 +48,20 @@ const RecipeStepCard: React.FC<RecipeStepCardProp> = ({ number, totalNumber, ste
     <div className='recipe-step-card'>
         {
           number<totalNumber?
-          <Card sx={{ height: "40vh" }}>
+          <Card sx={{ maxWidth: 445 }}>
           <CardMedia
-            sx={{ height:"25vh", width: "100vw", objectFit: "contain"  }}
+            sx={{ height: "30vh", objectFit: "contain"  }}
             image={img}
             title="step"
           />
             <CardContent sx={{border: "0px"}}>
-              <Typography variant="h5" fontWeight={'bold'} noWrap color="var(--cardHeading)" fontFamily="var(--fontFamily)"
-                  sx={{
-                  '@media (max-width: 600px)': {
-                      fontSize: '20px', // Adjust the font size for smaller screens
-                  },
-                  '@media (min-width: 601px) and (max-width: 1024px)': {
-                      fontSize: '24px', // Adjust the font size for medium screens
-                  },
-                  '@media (min-width: 1025px)': {
-                      fontSize: '30px', // Default font size for larger screens
-                  },}}>Step #{number+1}:
-              </Typography>
               <Typography variant="body1" color="var(--card)">
                 {step}
               </Typography>
             </CardContent>
           </Card>
           :
-          <Card sx={{ width: "100%", height: "50%" , padding: "1rem" }}>
+          <Card sx={{ maxWidth: 445, padding: "1rem" }}>
             <Avatar
               alt="Remy Sharp"
               src="https://upload.wikimedia.org/wikipedia/donate/thumb/a/a4/Checkmark-blue.svg/341px-Checkmark-blue.svg.png?20170216175728"

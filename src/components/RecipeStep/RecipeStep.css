@@ -1,15 +1,14 @@
 @import url("../../theme/theme.module.css");
 
 .recipe-step-card{
-  width: 70%;
   background-color: var(--cardBackground);
   border-radius: 10px;
   color: var(--cardHeading);
   font-family: var(--fontFamily);
   margin: auto;
+  width: fit-content;
 
 }
 .recipe-step-img{
-  height: 50%;
-  width: 50%;
+
 }

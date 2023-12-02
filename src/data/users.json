@@ -4,10 +4,10 @@
       "email": "john.doe@example.com",
       "password": "password123",
       "language": "english",
-      "allergies": ["Vegetarian", "Vegan", "Halal"],
+      "allergies": [],
       "favourites": {
-        "Want To Make": ["Spaghetti Bolognese", "Chicken Caesar Salad"],
-        "Asian": ["Chicken Caesar Salad"],
+        "Want To Make": [],
+        "Asian": [],
         "Family Favourites": []
       },
       "reviewed": {

@@ -3,7 +3,7 @@
       "name": "Spaghetti Bolognese",
       "time": 20,
       "mealType": "Lunch",
-      "allergies": ["Dairy", "Gluten"],
+      "allergies": ["Dairy Free", "Nut Free"],
       "ingredients": [
         {"amount": 500, "label": "g ground beef"},
         {"amount": 1, "label": "Onion"},
@@ -39,7 +39,7 @@
       "name": "Chicken Caesar Salad",
       "time": 30,
       "mealType": "Snack",
-      "allergies": ["Vegan", "Vegetarian", "Dairy"],
+      "allergies": ["Gluten Free", "Nut Free", "Halal"],
       "ingredients": [
         {"amount": 2, "label": "boneless, skinless chicken breasts"},
         {"amount": 1, "label": "head romaine lettuce"},
@@ -56,14 +56,209 @@
       ],
       "stepImg": [
         "https://cdn.sunbasket.com/37b2941c-3821-4f15-8524-3d8a7f35ceeb.jpg",
-        "https://www.allrecipes.com/thmb/6MLfDGOe_9NtBmBwHINKnwnOroc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/158140-Spaghetti-sauce-with-ground-beef-mfs-step-2-175-566f8da2d9184cb380e1723d14347b53.jpg",
-        "https://www.allrecipes.com/thmb/6MLfDGOe_9NtBmBwHINKnwnOroc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/158140-Spaghetti-sauce-with-ground-beef-mfs-step-3-175-566f8da2d9184cb380e1723d14347b53.jpg",
-        "https://www.allrecipes.com/thmb/6MLfDGOe_9NtBmBwHINKnwnOroc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/158140-Spaghetti-sauce-with-ground-beef-mfs-step-4-175-566f8da2d9184cb380e1723d14347b53.jpg",
-        "https://www.allrecipes.com/thmb/6MLfDGOe_9NtBmBwHINKnwnOroc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/158140-Spaghetti-sauce-with-ground-beef-mfs-step-5-175-566f8da2d9184cb380e1723d14347b53.jpg",
-        "https://www.allrecipes.com/thmb/6MLfDGOe_9NtBmBwHINKnwnOroc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/158140-Spaghetti-sauce-with-ground-beef-mfs-step-6-175-566f8da2d9184cb380e1723d14347b53.jpg"
+        "https://www.inspiredtaste.net/wp-content/uploads/2021/06/Grilled-Chicken-Recipe-5-1200-1200x800.jpg",
+        "https://www.chelseasmessyapron.com/wp-content/uploads/2020/05/Caesar-Salad-1.jpeg",
+        "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2FPhoto%2FRecipes%2F2021-05-big-beatiful-grilled-chicken-salad%2F2021-05-12_ATK1168",
+        "https://www.healthyseasonalrecipes.com/wp-content/uploads/2020/01/tahini-dressing-sq-042.jpg"
       ],
       "numberOfReviews": 150,
       "avgReviews": 4.7,
       "image": "https://www.seriouseats.com/thmb/oT9x26TZKXTK6U_-j_hfoyB1tys=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__04__20131009-caesar-salad-food-lab-11-Edit-ee91cc5229cc41b9b611ffd162b9715c.jpg"
+    },
+    {
+      "name": "Chicken Alfredo",
+      "time": 30,
+      "mealType": "Dinner",
+      "allergies": ["Dairy Free", "Halal", "Nut Free"],
+      "ingredients": [
+        {"amount": 2, "label": "boneless, skinless chicken breasts"},
+        {"amount": 1, "label": "box fettuccine pasta"},
+        {"amount": 1, "label": "cup heavy cream"},
+        {"amount": 1, "label": "cup grated Parmesan cheese"},
+        {"amount": 2, "label": "cloves garlic, minced"},
+        {"amount": 2, "label": "tablespoons butter"},
+        {"amount": 1, "label": "tablespoon olive oil"},
+        {"amount": 1, "label": "teaspoon salt"},
+        {"amount": 1, "label": "teaspoon black pepper"}
+      ],
+      "steps": [
+        "Season chicken breasts with salt and pepper.",
+        "In a large skillet, heat olive oil and cook chicken until browned and cooked through.",
+        "Cook fettuccine pasta according to package instructions.",
+        "In the same skillet, melt butter and sauté garlic until fragrant.",
+        "Pour in heavy cream and Parmesan cheese, stirring until the cheese is melted.",
+        "Slice cooked chicken and add it to the skillet.",
+        "Serve the Alfredo sauce over the cooked fettuccine pasta."
+      ],
+      "stepImg": [
+        "https://cdn.sunbasket.com/37b2941c-3821-4f15-8524-3d8a7f35ceeb.jpg",
+        "https://www.tasteofhome.com/wp-content/uploads/2019/01/GHTAJ17_53805_B06_27_5b-copy.jpg?fit=680%2C454",
+        "https://feelgoodfoodie.net/wp-content/uploads/2020/06/how-to-cook-pasta-6.jpg",
+        "https://pinchandswirl.com/wp-content/uploads/2022/11/adding-fresh-garlic-to-melted-butter-in-a-skillet.jpg",
+        "https://cdn.shopify.com/s/files/1/0571/3933/1129/files/Cabot_Blog_StirSauceGif_800x500_V1_600x600.gif?v=1688568962",
+        "https://www.laurafuentes.com/wp-content/uploads/2021/12/chicken-pieces_RC.jpg",
+        "https://bellyfull.net/wp-content/uploads/2021/02/Chicken-Alfredo-blog-4.jpg"
+      ],
+      "numberOfReviews": 30,
+      "avgReviews": 4.5,
+      "image": "https://bellyfull.net/wp-content/uploads/2021/02/Chicken-Alfredo-blog-4.jpg"
+    },
+    {
+      "name": "Margherita Pizza",
+      "time": 25,
+      "mealType": "Dinner",
+      "allergies": ["Vegetarian", "Halal", "Nut Free"],
+      "ingredients": [
+        {"amount": 1, "label": "pizza dough"},
+        {"amount": 1, "label": "cup tomato sauce"},
+        {"amount": 2, "label": "large tomatoes, sliced"},
+        {"amount": 1, "label": "ball fresh mozzarella, sliced"},
+        {"amount": 0.25, "label": "cup fresh basil leaves"},
+        {"amount": 2, "label": "tablespoons olive oil"},
+        {"amount": 1, "label": "teaspoon dried oregano"},
+        {"amount": 1, "label": "teaspoon garlic powder"},
+        {"amount": 1, "label": "teaspoon salt"}
+      ],
+      "steps": [
+        "Preheat oven to 450°F (232°C).",
+        "Roll out pizza dough on a floured surface and transfer to a baking sheet.",
+        "Spread tomato sauce over the pizza dough.",
+        "Arrange mozzarella slices on top.",
+        "Bake in the preheated oven for 15-18 minutes or until crust is golden and cheese is melted.",
+        "Top with fresh basil leaves before serving."
+      ],
+      "stepImg": [
+        "https://images.squarespace-cdn.com/content/v1/5eed333596cab776eee55b17/1628194131958-KOTHL0Z0PV8T1KSQ0MLH/5.+Pretzel-+Preheat+Oven.gif",
+        "https://cdn.firstwefeast.com/assets/2015/05/15stretching-the-dough.gif",
+        "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/pizza-sauce-500x375.jpg",
+        "https://susanscookingschool.com/media-2016/putting-cheese.jpg",
+        "https://media.tenor.com/wAiHOoFJz20AAAAC/pizza-pizza-in-oven.gif",
+        "https://images.pexels.com/photos/10068752/pexels-photo-10068752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "numberOfReviews": 35,
+      "avgReviews": 3.5,
+      "image": "https://images.ctfassets.net/nw5k25xfqsik/64VwvKFqxMWQORE10Tn8pY/200c0538099dc4d1cf62fd07ce59c2af/20220211142754-margherita-9920.jpg"
+    },
+    {
+      "name": "Classic Lasagna",
+      "time": 60,
+      "mealType": "Dinner",
+      "allergies": ["Nut Free", "Halal"],
+      "ingredients": [
+        {"amount": 1, "label": "pound ground beef"},
+        {"amount": 1, "label": "onion, finely chopped"},
+        {"amount": 3, "label": "cloves garlic, minced"},
+        {"amount": 2, "label": "cans crushed tomatoes"},
+        {"amount": 2, "label": "cans tomato sauce"},
+        {"amount": 2, "label": "tablespoons tomato paste"},
+        {"amount": 2, "label": "teaspoons dried oregano"},
+        {"amount": 1, "label": "teaspoon dried basil"},
+        {"amount": 1, "label": "teaspoon salt"},
+        {"amount": 0.5, "label": "teaspoon black pepper"},
+        {"amount": 9, "label": "lasagna noodles, cooked"},
+        {"amount": 4, "label": "cups shredded mozzarella cheese"},
+        {"amount": 1, "label": "cup grated Parmesan cheese"},
+        {"amount": 2, "label": "cups ricotta cheese"},
+        {"amount": 0.5, "label": "cup fresh parsley, chopped"}
+      ],
+      "steps": [
+        "Preheat oven to 450°F (232°C).",
+        "In a large skillet, brown the ground beef over medium heat. Add chopped onions and garlic, sauté until onions are translucent.",
+        "Stir in crushed tomatoes, tomato sauce, tomato paste, oregano, basil, salt, and black pepper. Simmer for 20 minutes, stirring occasionally.",
+        "In a large baking dish, layer lasagna noodles, meat sauce, mozzarella, Parmesan, and ricotta. Repeat until all ingredients are used, finishing with a layer of cheese on top.",
+        "Cover the baking dish with aluminum foil and bake in the preheated oven for 30 minutes. Remove the foil and bake for an additional 15 minutes until cheese is bubbly and golden.",
+        "Remove from the oven and let it rest for 10 minutes before serving."
+      ],
+      "stepImg": [
+        "https://images.squarespace-cdn.com/content/v1/5eed333596cab776eee55b17/1628194131958-KOTHL0Z0PV8T1KSQ0MLH/5.+Pretzel-+Preheat+Oven.gif",
+        "https://foodal.com/wp-content/uploads/2019/03/One-Pan-Tex-Mex-Skillet-with-Beef.jpg",
+        "https://2.bp.blogspot.com/-uT3-OVDIFuY/WiIuXZ3wjgI/AAAAAAAACts/abdznbyuR0I-Q4gEC3frt_bc1zLcifkUwCLcBGAs/s1600/05.JPG",
+        "https://www.marthastewart.com/thmb/egfQS5hi4FVvo6fX0Pd8fSXiUVI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSL-1532365-lasagna-with-meat-sauce-step8-0723-c69aad5c75e7481ba26c695419ebe325.jpg",
+        "https://www.laurafuentes.com/wp-content/uploads/2022/08/keep-chicken-warm_post_1.jpg",
+        "https://i0.wp.com/www.onceuponachef.com/images/2016/02/Lasagna-21.jpg?resize=760%2C484&ssl=1"
+      ],
+      "numberOfReviews": 55,
+      "avgReviews": 4.8,
+      "image": "https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-14-scaled.jpg"
+    },
+    {
+      "name": "Classic Cheesecake",
+      "time": 80,
+      "mealType": "Dessert",
+      "allergies": ["Vegetarian","Nut Free"],
+      "ingredients": [
+        {"amount": 2, "label": "cups graham cracker crumbs"},
+        {"amount": 0.5, "label": "cup unsalted butter, melted"},
+        {"amount": 4, "label": "packages (32 ounces) cream cheese, softened"},
+        {"amount": 1.5, "label": "cups granulated sugar"},
+        {"amount": 0.5, "label": "cup sour cream"},
+        {"amount": 0.5, "label": "cup all-purpose flour"},
+        {"amount": 1, "label": "teaspoon vanilla extract"},
+        {"amount": 4, "label": "large eggs"},
+        {"amount": 1, "label": "cup fresh strawberries, sliced (for topping)"},
+        {"amount": 1, "label": "cup blueberries (for topping)"},
+        {"amount": 0.5, "label": "cup apricot preserves (for glaze)"}
+      ],
+      "steps": [
+        "Preheat oven to 450°F (232°C).",
+        "In a medium bowl, mix graham cracker crumbs and melted butter. Press the mixture into the bottom of a greased 9-inch springform pan to form the crust.",
+        "In a large mixing bowl, beat cream cheese until smooth. Add sugar, sour cream, flour, and vanilla extract. Pour the cream cheese mixture over the crust in the springform pan.",
+        "Bake in the preheated oven for 60-70 minutes or until the center is set and the top is lightly browned.",
+        "In a small saucepan, heat apricot preserves over low heat until melted. Strain to remove chunks. Brush the top with the apricot glaze. ",
+        "Top with fresh strawberries and blueberries. Refrigerate until ready to serve."
+      ],
+      "stepImg": [
+        "https://images.squarespace-cdn.com/content/v1/5eed333596cab776eee55b17/1628194131958-KOTHL0Z0PV8T1KSQ0MLH/5.+Pretzel-+Preheat+Oven.gif",
+        "https://vintagekitchennotes.com/wp-content/uploads/2022/05/Graham-cracker-crust-process-collage-.jpeg",
+        "https://www.bettycrocker.com/-/media/GMI/Core-Sites/BC/legacy/Images/Betty-Crocker/Tips/TipsLibrary/Baking-Tips/how-to-make-cream-cheese-frosting/how-to-make-cream-cheese-frosting_04.gif",
+        "https://cdn.greatlifepublishing.net/wp-content/uploads/sites/2/2022/08/19064051/cheesecake-04.jpg",
+        "https://omgyummy.com/wp-content/uploads/2022/06/IMG_3980-apricot-preserves-in-pot-ready-to-go-in-jars-1200X1600-web.jpg",
+        "https://www.mybakingaddiction.com/wp-content/uploads/2011/07/plated-ricotta-cheesecake-hero.jpg"
+      ],
+      "numberOfReviews": 45,
+      "avgReviews": 3.9,
+      "image": "https://www.mybakingaddiction.com/wp-content/uploads/2011/07/plated-ricotta-cheesecake-hero.jpg"
+    },
+    {
+      "name": "Chicken Noodle Soup",
+      "time": 60,
+      "mealType": "Lunch",
+      "allergies": ["Dairy Free", "Nut Free", "Halal"],
+      "ingredients": [
+        {"amount": 1, "label": "whole chicken"},
+        {"amount": 4, "label": "carrots, sliced"},
+        {"amount": 4, "label": "celery stalks, chopped"},
+        {"amount": 1, "label": "large onion, diced"},
+        {"amount": 3, "label": "garlic cloves, minced"},
+        {"amount": 2, "label": "bay leaves"},
+        {"amount": 1, "label": "teaspoon dried thyme"},
+        {"amount": 8, "label": "cups chicken broth"},
+        {"amount": 2, "label": "cups egg noodles"},
+        {"amount": 1, "label": "cup frozen peas"},
+        {"amount": 2, "label": "tablespoons olive oil"},
+        {"amount": 1, "label": "teaspoon salt"},
+        {"amount": 1, "label": "teaspoon black pepper"},
+        {"amount": 1, "label": "tablespoon fresh parsley, chopped (for garnish)"}
+      ],
+      "steps": [
+        "In a large pot, heat olive oil over medium heat. Add diced onion, chopped celery, and sliced carrots. Cook until vegetables are softened, about 5 minutes.",
+        "Add minced garlic and cook for an additional 1-2 minutes until fragrant.",
+        "Place the whole chicken in the pot. Pour in chicken broth and add bay leaves and dried thyme. Season with salt and black pepper. Bring to a boil, then reduce heat to low. Cover and simmer for 30-40 minutes or until the chicken is cooked through.",
+        "Remove the chicken from the pot and shred the meat. Discard the bones and return the shredded chicken to the pot.",
+        "Add egg noodles and frozen peas. Simmer for an additional 10-15 minutes or until the noodles are tender.",
+        "Serve hot, garnished with fresh chopped parsley."
+      ],
+      "stepImg": [
+        "https://theforkedspoon.com/wp-content/uploads/2019/11/11-02-19-7-700x1050.jpg",
+        "https://twoplaidaprons.com/wp-content/uploads/2023/04/adding-minced-garlic-to-pot-of-oil.jpg",
+        "https://www.bowlofdelicious.com/wp-content/uploads/2020/01/Slow-Cooker-Whole-Chicken-1.jpg",
+        "https://www.tastesoflizzyt.com/wp-content/uploads/2020/01/instant-pot-shredded-chicken-5-640x427.jpg",
+        "https://www.simplejoy.com/wp-content/uploads/2017/10/homemade_chicken_noodle_soup_recipe_image.jpg",
+        "https://www.bitesofberi.com/wp-content/uploads/2022/10/chicken-noodle-soup-1-768x1024.jpg"
+      ],
+      "numberOfReviews": 35,
+      "avgReviews": 4.5,
+      "image": "https://www.bitesofberi.com/wp-content/uploads/2022/10/chicken-noodle-soup-1-768x1024.jpg"
     }
+    
   ]

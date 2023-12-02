@@ -95,7 +95,7 @@ const Timer: React.FC = () => {
         p: 0.5,
         marginTop: "1rem",
         position: "absolute",
-        bottom: "15%",
+        bottom: "12%",
         left: "5%",
         right: "5%",
       }}

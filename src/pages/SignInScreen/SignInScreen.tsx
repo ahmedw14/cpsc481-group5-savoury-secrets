@@ -71,6 +71,11 @@ const SignInScreen: React.FC = () => {
     }
    
   }
+  const handleForgotPassword = () => {
+    setMessage("Email has been sent. Please follow the instructions on there!");
+    setMessageOpen(true);
+    setMessageSeverity("success");
+  }
   
   return (
     <div className='sign_in_up'>
@@ -107,7 +112,7 @@ const SignInScreen: React.FC = () => {
                   <InputField placeholder="Email" input={email} onInputChange={handleEmailChange}/>
                   
                   <InputField placeholder="Password" input={password} onInputChange={handlePasswordChange}/>
-                  <p>Forgot Password?</p>
+                  <p onClick={handleForgotPassword}>Forgot Password?</p>
                 </div>
               </div>
               <div className="bottom-component">
