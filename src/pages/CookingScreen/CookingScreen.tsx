@@ -12,6 +12,8 @@ import RecipeStepCard from '../../components/RecipeStep/RecipeStep';
 import Timer from '../../components/Timer/Timer';
 import AllSteps from '../../components/AllSteps/AllSteps';
 import CustomAlert from '../../components/Alert/CustomAlert';
+import MicOffIcon from '@mui/icons-material/MicOff';
+import MicIcon from '@mui/icons-material/Mic';
 
 interface RecipeInfo {
   name: string;
@@ -31,7 +33,6 @@ interface RecipeInfo {
 
 const CookingScreen = () => {
   const navigate = useNavigate();
-  //Big Thanks to Andrea Benavides Aguirre for helping with the speech recognition feature and yelling at my computer
   const {
     transcript,
     listening,
@@ -141,6 +142,19 @@ const CookingScreen = () => {
     setCurrStep(index);
     resetTranscript();
   } 
+  const disableSpeech = () => {
+    SpeechRecognition.stopListening();
+    setMessage(`Speech recognition is stopped`);
+    setMessageOpen(true);
+    setMessageSeverity("warning");
+  }
+
+  const enableSpeech = () => {
+    SpeechRecognition.startListening({continuous: true});
+    setMessage(`Speech recognition resumed`);
+    setMessageOpen(true);
+    setMessageSeverity("warning");
+  }
 
   return (
     <div className='cooking_screen'>
@@ -177,8 +191,53 @@ const CookingScreen = () => {
               }}
               >
                   <FormatListNumberedIcon />
-                  Show All Steps
+                  All Steps
             </Button>
+            {
+              listening?
+              <Button variant="contained"
+                onClick={()=>disableSpeech()}
+                sx={{
+                width: "100%",
+                display: 'flex',
+                backgroundColor: "var(--secondary)",
+                color: "red",
+                minWidth: "130px",
+                borderRadius: "10px",
+                marginTop: "1rem",
+                border: "2px solid var(--inputBorder)",
+                fontSize: "12px",
+                '&:hover': {
+                    backgroundColor: 'var(--button)',
+                    color: 'white'
+                }
+                }}
+                >
+                  <MicOffIcon />
+                  Disable Mic
+              </Button>:
+              <Button variant="contained"
+                onClick={()=>enableSpeech()}
+                sx={{
+                width: "100%",
+                display: 'flex',
+                backgroundColor: "var(--secondary)",
+                color: "var(--buttonText)",
+                minWidth: "130px",
+                borderRadius: "10px",
+                marginTop: "1rem",
+                border: "2px solid var(--inputBorder)",
+                fontSize: "12px",
+                '&:hover': {
+                    backgroundColor: 'var(--button)',
+                    color: 'white'
+                }
+                }}
+                >
+                  <MicIcon />
+                  Enable Mic
+              </Button>
+            }
         </div>
         </div>
        

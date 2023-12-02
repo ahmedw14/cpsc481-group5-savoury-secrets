@@ -115,7 +115,7 @@ const Filter: React.FC<FilterProps> = ({ currFilter, currIndices, state, toggleF
         <Typography variant='h5'>Dietary</Typography>
         {allergies.map((allergy, index)=>{
           return(
-            <ListItem onClick={handleToggle(index)}  disablePadding>
+            <ListItem onClick={handleToggle(index)}  disablePadding key={index}>
               <ListItemButton role={undefined} dense>
                 <ListItemIcon>
                   <Checkbox

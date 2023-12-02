@@ -225,7 +225,7 @@ const RecipeScreen = () => {
             <Tab label="Directions" sx={{width: "100%",color: "var(--inputText)", margin: "auto", fontFamily: 'var(--fontFamily)', border: "0", borderRadius: "50px", '&.Mui-selected': {background: 'var(--inputText)', color: "white"}}}/>
         </Tabs>
         {tabValue==0?
-          <div className="ingredients">
+          <div className="ingredients" key={"ingredients"}>
             <Paper style={{maxHeight: "100%", overflow: 'auto', boxShadow: "none" }}>
               <List
                 sx={{
@@ -238,19 +238,19 @@ const RecipeScreen = () => {
                 }}
                 subheader={<li />}
                 >
-                {selectedRecipes?.ingredients?.map((ingredient)=>(
-                    <>
-                        <ListItem key={ingredient?.label?.toLowerCase()}>
+                {selectedRecipes?.ingredients?.map((ingredient, index)=>(
+                    <div key={`ingredient-${index}`}>
+                        <ListItem >
                             <ListItemText primary={(ingredient.amount.valueOf()*servingSize) + " " + ingredient.label} />
                         </ListItem>
                         <Divider light/>
-                    </>
+                    </div>
                     ))}
               </List>
             </Paper>
           </div>
             : 
-          <div className="directions">
+          <div className="directions"  key={"directions"}>
             <Paper style={{maxHeight: "100%", overflow: 'auto', boxShadow: "none" }}>
               <List
                   sx={{
@@ -264,12 +264,12 @@ const RecipeScreen = () => {
                   subheader={<li />}
                   >
                   {selectedRecipes?.steps.map((step, index)=>(
-                    <>
-                      <ListItem key={step?.toLowerCase()}>
-                          <ListItemText primary={(index+1) + ") " +step} />
+                    <div key={`step-${index}`}>
+                      <ListItem>
+                          <ListItemText key={index} primary={(index+1) + ") " +step} />
                       </ListItem>
                       <Divider light/>
-                    </>
+                    </div>
                   ))}
               </List>
             </Paper>

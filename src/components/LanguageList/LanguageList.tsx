@@ -19,7 +19,7 @@ const LanguageList: React.FC<LanguageListProps> = ({ selectedLanguage, searchTex
       {Languages
       .filter((language) => (language.name.toLocaleLowerCase().includes(searchText) || language.nativeName.toLocaleLowerCase().includes(searchText)))
       .map((language)=>(
-        <ListItem secondaryAction={language.name.toLocaleLowerCase() === selectedLanguage?<CheckIcon sx={{color: 'black'}}/>:null}>
+        <ListItem key={language.name} secondaryAction={language.name.toLocaleLowerCase() === selectedLanguage?<CheckIcon sx={{color: 'black'}}/>:null}>
           <ListItemText 
             primary={language.name}
             secondary={language.nativeName}

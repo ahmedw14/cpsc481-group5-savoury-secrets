@@ -51,6 +51,7 @@ const RecipeCard: React.FC<RecipeCardProp> = ({ title, img, avgReviews, time, al
             allergies.map((allergy) => {
               return(
                 <Chip
+                  key={allergy}
                   color="info"
                   label={allergy}
                   sx={{
@@ -63,6 +64,7 @@ const RecipeCard: React.FC<RecipeCardProp> = ({ title, img, avgReviews, time, al
             allergies.map((allergy) => {
               return(
                 <Chip
+                  key={allergy}
                   color="info"
                   label={allergy}
                   sx={{
@@ -84,10 +86,14 @@ const RecipeCard: React.FC<RecipeCardProp> = ({ title, img, avgReviews, time, al
         </div>
         {isDeletable && (
           <>
-            <Divider />
             <div className='remove-recipe' onClick={(e: any)=>handleDelete(e, title)}>
-              <DeleteIcon />
-              <p>Remove From List</p>
+              <Chip
+                label="Remove From List"
+                icon={<DeleteIcon />}
+                variant="outlined"
+                color='error'
+                sx={{width:'100%'}}
+              />
             </div>
           </>
         )}

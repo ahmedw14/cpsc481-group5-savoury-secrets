@@ -200,7 +200,7 @@ const FavouriteRecipesScreen = () => {
               {searchedRecipes.length > 0 ? 
                 (
                   searchedRecipes.map((recipe: RecipeInfo)=>(
-                    <RecipeCard title={recipe.name} img={recipe.image} time={recipe.time} avgReviews={recipe.avgReviews} allergies={recipe.allergies} isDeletable={true} onDelete={handleRemoveRecipe} onCardClick={handleRecipeClick}/>
+                    <RecipeCard key={recipe.name} title={recipe.name} img={recipe.image} time={recipe.time} avgReviews={recipe.avgReviews} allergies={recipe.allergies} isDeletable={true} onDelete={handleRemoveRecipe} onCardClick={handleRecipeClick}/>
                   ))
                 ):
                   <NoResultsFoundCard />

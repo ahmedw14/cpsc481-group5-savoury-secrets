@@ -35,7 +35,7 @@ const AllSteps: React.FC<AllStepsProps> = ({ state, steps, toggleAllSteps }) => 
         <Typography variant='h5'>Steps</Typography>
         {steps.map((step, index)=>{
           return(
-            <div>
+            <div key={index}>
               <ListItem>
                 <ListItemText primary={`${index+1}) ${step}`} sx={{color: "black"}}/>
               </ListItem>

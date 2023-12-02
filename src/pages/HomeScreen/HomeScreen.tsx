@@ -124,7 +124,7 @@ const HomeScreen: React.FC = () => {
               {filteredRecipes.length > 0 ? 
                 (
                   filteredRecipes.map((recipe: RecipeInfo)=>(
-                    <RecipeCard title={recipe.name} img={recipe.image} time={recipe.time} avgReviews={recipe.avgReviews} allergies={recipe.allergies} isDeletable={false} onCardClick={handleRecipeClick}/>
+                    <RecipeCard key={recipe.name} title={recipe.name} img={recipe.image} time={recipe.time} avgReviews={recipe.avgReviews} allergies={recipe.allergies} isDeletable={false} onCardClick={handleRecipeClick}/>
                   ))
                 ):
                   <NoResultsFoundCard />

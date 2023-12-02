@@ -6,10 +6,15 @@ import './LanguageScreen.css';
 
 import SearchBar from '../../components/SearchBar/SearchBar';
 import LanguageList from '../../components/LanguageList/LanguageList';
+import { AlertColor } from '@mui/material';
+import CustomAlert from '../../components/Alert/CustomAlert';
 
 const Language = ( ) => {
   const [searchText, setSearchText] = useState('');
   const [selectedLanguage, setLanguage] = useState<String>();
+  const [message, setMessage] = useState("");
+  const [messageOpen, setMessageOpen] = useState(false);
+  const [messageSeverity, setMessageSeverity] = useState<AlertColor>("success");
 
   const navigate = useNavigate();
 
@@ -22,7 +27,7 @@ const Language = ( ) => {
       // Save the updated language back to localStorage
       localStorage.setItem('loggedInUser', JSON.stringify(parsedLocal));
     }
-    navigate(-1)
+    navigate(-1);
   }
 
   const handleSearchTextChange = (newSearchText: string) => {
@@ -30,6 +35,9 @@ const Language = ( ) => {
   };
 
   const handleLanguageChange = (newLanguage: string) => {
+    setMessage("Language has been changed");
+    setMessageOpen(true);
+    setMessageSeverity("success");
     setLanguage(newLanguage);
   };
 
@@ -58,6 +66,7 @@ const Language = ( ) => {
               onLanguageChange={handleLanguageChange} 
             />
        </div>
+       <CustomAlert message={message} messageSeverity={messageSeverity} status={messageOpen} onClose={()=>setMessageOpen(false)}/>
     </div>
   );
 };
