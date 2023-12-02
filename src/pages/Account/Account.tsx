@@ -16,7 +16,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from "../../components/Navbar/Navbar";
 
 import './Account.css';
-import { AlertColor, Button, Divider, Typography } from "@mui/material";
+import { AlertColor, Button, Chip, Divider, Typography } from "@mui/material";
 import FilledButton from "../../components/Button/FilledButton";
 import SavedFilter from "../../components/SavedFilter/SavedFilter";
 import EditAccountInfo from "../../components/EditAccountInfo/EditAccountInfo";
@@ -152,25 +152,14 @@ const Account: React.FC = () => {
                         },}}>{user.email}
                     </Typography>
                 </div>
-                <Button variant="contained"
-                    onClick={()=>{setEditModalState(true)}}
-                    sx={{
-                    width: "80%",
-                    display: 'flex',
-                    backgroundColor: "var(--secondary)",
-                    color: "var(--buttonText)",
-                    minWidth: "150px",
-                    borderRadius: "10px",
-                    border: "2px solid var(--inputBorder)",
-                    '&:hover': {
-                        backgroundColor: 'var(--button)',
-                        color: 'white'
-                    }
-                    }}
-                >
-                    <EditIcon />
-                    Edit Info
-                </Button>
+                <Chip
+                  onClick={()=>{setEditModalState(true)}}
+                  label="Edit Info"
+                  icon={<EditIcon />}
+                  variant="outlined"
+                  color='info'
+                  sx={{width:'80%'}}
+                />
             </div>
             <div className="account_menu">
                 <div className="account_menu_button">
