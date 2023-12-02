@@ -8,12 +8,12 @@ import Language from './pages/LanguageScreen/LanguageScreen';
 import RecipeScreen from './pages/RecipeScreen/RecipeScreen';
 import SignInScreen from './pages/SignInScreen/SignInScreen';
 import WelcomeScreen from './pages/WelcomeScreen/WelcomeScreen';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<WelcomeScreen />} />
           <Route path="/language" element={<Language />} />
@@ -25,7 +25,7 @@ function App() {
           <Route path="/cooking/:recipeName/:stepNumber" element={<CookingScreen />} />
           <Route path="/account" element={<Account />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
