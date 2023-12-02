@@ -29,7 +29,6 @@ const Confirmation: React.FC<ConfirmationProps> = ({ status, text, handleConfirm
             borderRadius: "20px",
             position: "absolute",
             width: "100%",
-            height: "fit-content",
             margin: "auto",
             outline: "none",
             padding: "1rem",
