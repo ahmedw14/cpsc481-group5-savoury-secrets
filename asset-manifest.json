@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/cpsc481-group5-savoury-secrets/static/css/main.d929cbf2.css",
-    "main.js": "/cpsc481-group5-savoury-secrets/static/js/main.398c0925.js",
+    "main.js": "/cpsc481-group5-savoury-secrets/static/js/main.8aa81ebc.js",
     "static/js/787.c554b315.chunk.js": "/cpsc481-group5-savoury-secrets/static/js/787.c554b315.chunk.js",
     "static/media/taco-1@2x.png": "/cpsc481-group5-savoury-secrets/static/media/taco-1@2x.6107e593e6f35dd9f1fa.png",
     "static/media/burger-isometric-1@2x.png": "/cpsc481-group5-savoury-secrets/static/media/burger-isometric-1@2x.b95ec5ad177398b86d01.png",
     "static/media/sushi-caviar-1@2x.png": "/cpsc481-group5-savoury-secrets/static/media/sushi-caviar-1@2x.50534a9b680418fff1ee.png",
     "index.html": "/cpsc481-group5-savoury-secrets/index.html",
     "main.d929cbf2.css.map": "/cpsc481-group5-savoury-secrets/static/css/main.d929cbf2.css.map",
-    "main.398c0925.js.map": "/cpsc481-group5-savoury-secrets/static/js/main.398c0925.js.map",
+    "main.8aa81ebc.js.map": "/cpsc481-group5-savoury-secrets/static/js/main.8aa81ebc.js.map",
     "787.c554b315.chunk.js.map": "/cpsc481-group5-savoury-secrets/static/js/787.c554b315.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d929cbf2.css",
-    "static/js/main.398c0925.js"
+    "static/js/main.8aa81ebc.js"
   ]
 }
