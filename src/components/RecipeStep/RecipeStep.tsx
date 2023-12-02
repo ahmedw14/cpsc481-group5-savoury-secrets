@@ -61,7 +61,7 @@ const RecipeStepCard: React.FC<RecipeStepCardProp> = ({ number, totalNumber, ste
             </CardContent>
           </Card>
           :
-          <Card sx={{ maxWidth: 445, padding: "1rem" }}>
+          <Card sx={{ maxWidth: 445, padding: "0.5rem" }}>
             <Avatar
               alt="Remy Sharp"
               src="https://upload.wikimedia.org/wikipedia/donate/thumb/a/a4/Checkmark-blue.svg/341px-Checkmark-blue.svg.png?20170216175728"

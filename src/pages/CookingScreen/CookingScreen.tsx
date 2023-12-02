@@ -281,7 +281,12 @@ const CookingScreen = () => {
             currRating = {rating}
             recipeName={recipeName? recipeName: ''}
             handleReviewSubmit={handleReviewSubmit}/>
-          <Timer />
+            {(selectedRecipes) ?
+              currStep !== selectedRecipes.steps.length?
+                <Timer />
+              : <></>
+              :<></>
+            }
         </div>
         <div className='allSteps'>
         <AllSteps state={showAllSteps} steps={selectedRecipes? selectedRecipes.steps: []} toggleAllSteps={()=>setShowAllSteps(false)}/>
