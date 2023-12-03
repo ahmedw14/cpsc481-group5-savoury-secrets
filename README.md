@@ -31,11 +31,15 @@ Running Deployed Link:
 - Leaving a review when a user is done cooking a recipe
 
 # Instructions for using the system:
-- Use the following user credentials in the sign in screen:
+- Use the following user credentials in the sign in screen (or sign up for your own account):
 
   **email**: ```john.doe@example.com``` 
 
   **password**: ```password123```
+
+- Upon logging in to the application you have the ability to view your favourites lists (Favourites tab), search/filter/view recipes (All Recipes tab), and edit your account information (Account tab). 
+
+- To view step-by-step instructions for a recipe, click into a specific recipe and then click the "Start Cooking" button.
 
 - In the cooking screen, there is speech recognition where users can control going back and forth between steps
   - To use speech recognition use on of the following supported browsers: Safari, Chrome, or Microsoft Edge
