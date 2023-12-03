@@ -37,7 +37,7 @@ Running Deployed Link:
 
   **password**: ```password123```
 
-- In the cooking screen, there is speech recognition where users can control going back and forth between recipes
+- In the cooking screen, there is speech recognition where users can control going back and forth between steps
   - To use speech recognition use on of the following supported browsers: Safari, Chrome, or Microsoft Edge
   - The supported speech recognition commands are "Next Step" and "Previous Step"
   - Ensure you are talking clearly into the microphone of your device
