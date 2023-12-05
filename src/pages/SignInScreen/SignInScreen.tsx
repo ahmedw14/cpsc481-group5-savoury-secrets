@@ -72,9 +72,21 @@ const SignInScreen: React.FC = () => {
    
   }
   const handleForgotPassword = () => {
-    setMessage("Email has been sent. Please follow the instructions on there!");
-    setMessageOpen(true);
-    setMessageSeverity("success");
+    if(!email){
+      setMessage("Please input an email to get instructions on how to recover password.");
+      setMessageOpen(true);
+      setMessageSeverity("error");
+    }else{
+      if(Users.find(user => user.email === email)){
+        setMessage("Email has been sent. Please follow the instructions on there!");
+        setMessageOpen(true);
+        setMessageSeverity("success");
+      }else{
+        setMessage("User Not Found. Please Check Email to get instructions on how to recover password.");
+        setMessageOpen(true);
+        setMessageSeverity("error");
+      }
+    }
   }
   
   return (
