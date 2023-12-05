@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# CPSC 481 - Group #5 - Cooking Instructor Application:
+- Ahmed Waly (ahmed.waly@ucalgary.ca) 
+- Wilbur el Bouni (wilbur.elbouni@ucalgary.ca)
+- Sam Laurie (sam.laurie@ucalgary.ca)
+- John McMurtry (john.mcmurtry@ucalgary.ca)
+- Aditi Yadav (aditi.yadav@ucalgary.ca)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Running Instructions:
+Running locally:
+- Go to the project directory
+- Run `npm start`
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Available Scripts
+Running Deployed Link:
+- Open [https://ahmedw14.github.io/cpsc481-group5-savoury-secrets/](https://ahmedw14.github.io/cpsc481-group5-savoury-secrets/) to view it in the browser.
 
-In the project directory, you can run:
+# Implemented cases/functions:
+- User log in/sign up
+- All recipes view page
+- Being able to filter and search for recipes
+- Users adding dietary restrictions (saved filter)
+- Adding/Editing/Deleting saved lists
+- Add/Remove a recipe from a saved list
+- Being able to share a recipe
+- Changing serving size (being reflected in the amount of ingredients)
+- Being able to go back and forth between recipe steps
+- Having a progress bar showing which step a user is on and how many steps are left
+- Having speech recognition(that can be toggled on/off) to go back and forth between recipe steps
+- Adding multiple timers while cooking a recipe
+- Viewing all steps in a recipe while cooking
+- Leaving a review when a user is done cooking a recipe
 
-### `npm start`
+# Instructions for using the system:
+- Use the following user credentials in the sign in screen (or sign up for your own account):
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  **email**: ```john.doe@example.com``` 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  **password**: ```password123```
 
-### `npm test`
+- Upon logging in to the application you have the ability to view your favourites lists (Favourites tab), search/filter/view recipes (All Recipes tab), and edit your account information (Account tab). 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- To view step-by-step instructions for a recipe, click into a specific recipe and then click the "Start Cooking" button.
 
-### `npm run build`
+- In the cooking screen, there is speech recognition where users can control going back and forth between steps
+  - To use speech recognition use on of the following supported browsers: Safari, Chrome, or Microsoft Edge
+  - The supported speech recognition commands are "Next Step" and "Previous Step"
+  - Ensure you are talking clearly into the microphone of your device
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
